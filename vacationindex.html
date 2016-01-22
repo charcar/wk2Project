@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>VacaySpot</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Describing Site -->
+      <h1>Get a Vacation Recommendation</h1>
+       <!-- Form requiring user input -->
+      <div id="information">
+        <form id="vacationrec">
+          <div class="form-group">
+            <label for="age">How old are ya?</label>
+            <input id="age" class="form-control" type="text" placeholder="How old are you, at heart?">
+          </div>
+          <div class="form-group">
+            <label for="temperature">What temperature do you want to vacation in?</label>
+            <input id="temperature" class="form-control" type="text" placeholder="Are your toes cold?">
+          </div>
+          <div class="form-group">
+            <label for="distance">How far are you trying to travel?</label> 
+            <input id="distance" class="form-control" type="text" placeholder="Five hundred twenty five thousand six hundred miles!">
+          </div>
+          
+          <!-- For Transport and Food, input field is radio. Need to figure out how how to extract information -->
+          <div class="form-group">
+            <label for="radio" class="form-group">How do you like your grub?</label>
+            <div class="form-group">
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="spicy" value="spicy"> Super spicy
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="bland" value="bland"> Pretty bland
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="vacuum" value="vacuum"> I'm basically a human vacuum.
+              </label>
+            </div>
+            <label for="checkbox" class="form-group">How do you want to get around?</label>
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <input type="checkbox" id="car" value="car"> Vehicularly
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="walk" value="walk"> Bipedally
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="hippie" value="hippie"> Hitchiking, probably
+              </label>
+            </div>
+          </div>          
+
+          <button type="submit" class="btn">Off we go!</button>
+        </form>
+      </div>
+    </div>
+    
+
+
+   
+
+
+    <!-- 6 Hidden vacation destinations -->
+
+
+
+  </body>
+</html>
+
