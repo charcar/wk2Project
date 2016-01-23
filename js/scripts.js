@@ -63,15 +63,6 @@ $(document).ready(function() {
     else { 
       alert("Go to New Zealand. Trust me. Just go.")
     } 
-  
-
-    // these will go in the algorithm, and only get shown when the proper conditions are fulfilled, commented out when inserted into code
-    // $("#JohnDay").show();
-    // $("#Vancouver").show();
-    // $("#Nola").show();
-    // $("#Minnesota").show();
-    // $("#PuertoRico").show();
-    // $("#Iceland").show();
 
     event.preventDefault();
 
