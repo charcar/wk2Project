@@ -1,7 +1,7 @@
 
 VacaySpot
 A moderately functioning vacation recommendation website.
-There are lots of bugs, I will be updating it as I learn more coding.
+There are lots of bugs, so bear with me, I will be updating it as I learn more coding.
 
 The MIT License (MIT)
 Copyright (c) 2016 Charles Carter
